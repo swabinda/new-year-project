@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ p{
     margin-bottom: 70px;
 }
 .bg-banner{
-    background-image: url(images/banner/banner3.png);
+    background-image: url(/images/banner/banner3.png);
     background-size: cover;
     width: 1348px;
     height: 808px;
@@ -53,4 +53,30 @@ p{
 }
 .bg-button:active{
 transform: translateY(5px);
+}
+.previous-failures{
+    margin: auto;
+    width: 1072px;
+    height: 723px;
+    position: relative;
+
+}
+.previous-failures-text{
+    width: 416px;
+    top: 350px;
+    right: 0px;
+    position: absolute;
+}
+.previous-failures-title{
+    line-height: 100%;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+ul{
+    list-style: none;
+}
+.fa-check{
+    font-size: 18px;
+    color: #16D887;
+    margin-right: 12px;
 }
