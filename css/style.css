@@ -80,3 +80,17 @@ ul{
     color: #16D887;
     margin-right: 12px;
 }
+.plan-title{
+    text-align: center;
+    margin:100px 0 50px 0 ;
+}
+.targeted-plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan img{
+   margin-left: 14px;
+}
+.plan h3,p{
+    text-align: center;
+}
