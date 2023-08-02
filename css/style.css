@@ -91,7 +91,7 @@ ul{
 .plan img{
    margin-left: 14px;
 }
-.plan h3,p{
+.plan h3{
     text-align: center;
 }
 .container{
@@ -120,4 +120,44 @@ ul{
     width: 100%;
     height: 100%;
     top: 0;
+}
+.footer-container{
+    height: 500px;
+    background: #151414;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.future-box{
+    width: 485px;
+    height: 317px;
+}
+.subscribe-box{
+    width: 325px;
+    height: 204px;
+}
+.subscribe-box input{
+    background: #151414;
+    color: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ffffffa4;
+    width: 200px;
+}
+::placeholder{
+    color: #fff;
+}
+.sub-button{
+        width: 120px;
+        height: 45px;
+        padding: 5px;
+        border: none;
+        font-size: 18px;
+        color: #fff;
+        background: #005FAC;
+        cursor: pointer;
+}
+.sub-button:active {
+    transform: translateY(3px);
 }
