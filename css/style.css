@@ -133,6 +133,9 @@ ul{
     width: 485px;
     height: 317px;
 }
+.social-icons img{
+    margin-right: 7px;
+}
 .subscribe-box{
     width: 325px;
     height: 204px;
