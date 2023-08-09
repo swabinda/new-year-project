@@ -165,6 +165,12 @@ ul{
     transform: translateY(3px);
 }
 @media screen and (max-width: 576px) {
+    .container{
+        width: auto;
+    }
+    .container-info{
+        width: auto;
+    }
     .footer-container{
         height: 100%;
         flex-direction: column;
@@ -180,6 +186,9 @@ ul{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
+    .container {
+            width: auto;
+        }
     .future-box {
         margin: 0 30px;
     }
