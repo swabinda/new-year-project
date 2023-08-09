@@ -165,14 +165,23 @@ ul{
     transform: translateY(3px);
 }
 @media screen and (max-width: 576px) {
+    .previous-failures{
+        width: auto;
+        height: auto;
+    }
+    .previous-failures-img img{
+        width: 100%;
+    }
+    .previous-failures-text{
+        width: auto;
+        position: static;
+        padding: 20px;
+    }
     .targeted-plans{
         flex-direction: column;
         align-items: center;
     }
-    .container{
-        width: auto;
-    }
-    .container-info{
+    .container, .container-info{
         width: auto;
     }
     .footer-container{
@@ -181,15 +190,26 @@ ul{
         align-items: flex-start;
         gap: 20px;
     }
-    .future-box{
+    .future-box, .subscribe-box{
         width: auto;
-        padding: 20px;
-    }
-    .subscribe-box{
         padding: 20px;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
+    .previous-failures {
+            width: auto;
+            height: auto;
+        }
+    
+    .previous-failures-img img {
+            width: 100%;
+        }
+    
+    .previous-failures-text {
+            width: auto;
+            position: static;
+            padding: 20px;
+        }
     .container {
             width: auto;
         }
