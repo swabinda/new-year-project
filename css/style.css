@@ -165,12 +165,19 @@ ul{
     transform: translateY(3px);
 }
 @media screen and (max-width: 576px) {
+    .bg-banner, .previous-failures-img img{
+        width: 100%;
+    }
+    .bg-text{
+        width: auto;
+        left: 0;
+    }
+    .bg-title{
+        font-size: 1.2em;
+    }
     .previous-failures{
         width: auto;
         height: auto;
-    }
-    .previous-failures-img img{
-        width: 100%;
     }
     .previous-failures-text{
         width: auto;
@@ -196,13 +203,16 @@ ul{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 992px){
+   .bg-banner, .previous-failures-img img {
+            width: 100%;
+        }
+    .bg-text {
+            width: auto;
+            left: 0;
+        }
     .previous-failures {
             width: auto;
             height: auto;
-        }
-    
-    .previous-failures-img img {
-            width: 100%;
         }
     
     .previous-failures-text {
