@@ -17,7 +17,6 @@ p{
     margin-bottom: 70px;
 }
 .bg-banner{
-    background-image: url(/images/banner/banner3.png);
     background-size: cover;
     width: 1348px;
     height: 808px;
@@ -95,7 +94,6 @@ ul{
     text-align: center;
 }
 .container{
-    background: url(/images/watch.png);
     width: 1140px;
     height: 300px;
     margin: 80px auto;
